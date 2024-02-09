@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const MongoClient = require('mongodb').MongoClient
 const path = require('path')
 
-const uri = "mongodb+srv://hemant:z2iACqTac5ZvqEk2@cluster0.ksrpxaq.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://username:password@cluster0.ksrpxaq.mongodb.net/?retryWrites=true&w=majority";
 
 // Make sure you place body-parser before your CRUD handlers!
 

@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+    margin: 0 20px;
+}
+.head{
+    text-align: center;
+}
+.medial{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.update , .remove, .create{
+    /* flex-basis: 33%; */
+    text-align: center;
+    border: 2px solid black;
+    /* padding: 20px 20px; */
+    flex: 1;
+}
+.quotes{
+    font-size: large;
+}
